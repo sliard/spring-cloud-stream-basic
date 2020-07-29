@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  demo-rabbitmq:
+    image: "rabbitmq:3.6.16-management"
+    ports:
+      - "7672:5672"
+      - "17672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: demo
+      RABBITMQ_DEFAULT_PASS: uSPBveuN!V>Uu4<5
